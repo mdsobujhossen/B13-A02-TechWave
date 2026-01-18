@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background: #1A0B2E;
+    color: #fff;
+}
+
+/* variable */
+:root{
+    --accent-color:#00FF88;
+}
+
+/* shared styles */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section-title{
+    font-size: 48px;
+    font-weight: bold;
+}
+.section-info{
+    font-size: 16px;
+    line-height: 20px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.card-info{
+    font-size: 16px;
+    line-height: 24px;
+}
+.primary-btn{
+    padding: 12.5px 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(20deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    color: #fff;
+    border-radius: 100px;
+    border-style: none;
+}
+.primary-btn i{
+    max-width: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+/* normal styles */
+
+nav{
+    justify-content: space-between;
+    padding: 24px;
+    align-items: center;
+}
+nav .logo{
+    max-width: 219px;
+    height: 32px;
+}
+nav .menu{
+    list-style: none;
+    gap: 32px;
+}
+nav .menu li a{
+    font-weight: 500;
+    line-height: 120%;
+    text-decoration: none;
+    color: #fff;
+}
+nav .hamburger{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* medium responsive design */
+@media screen and (min-width: 576px) and (max-width:992px) {
+    
+}
+
+
+
+
+
+
+
+/* mobile responsive */
+
+@media screen and (max-width: 576px) {
+    /* shared styles */
+    .section-title{
+    font-size: 32px;
+    }
+    .card-title{
+    font-size: 22px;
+    }
+
+
+    /* normal style */
+    nav{
+        padding: 18px 20px;
+        
+    }
+    nav .logo{
+        max-width: 137px;
+        height: 20px;
+    }
+    nav .menu{
+        display: none;
+    }
+    nav .header-btn{
+        display: none;
+    }
+    nav .hamburger{
+        display: block;
+        max-width: 24px;
+    }
+
+}
