@@ -25,7 +25,9 @@ body{
 }
 .section-info{
     font-size: 16px;
-    line-height: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 80%;
 }
 .card-title{
     font-size: 24px;
@@ -34,6 +36,7 @@ body{
 .card-info{
     font-size: 16px;
     line-height: 24px;
+     opacity: 80%;
 }
 .primary-btn{
     padding: 12.5px 16px;
@@ -142,6 +145,40 @@ nav .hamburger{
     gap: 8px;
 }
 
+/* about section */
+#about{
+    margin-top: 50px;
+}
+#about .about-content{
+    text-align: center;
+    padding: 0 0 80px;
+    border-bottom: 1px solid #909090;
+
+}
+#about .about-content>.section-title{
+    margin-bottom: 16px;
+}
+#about .showcase-box{
+    padding: 80px 0 120px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+#about .showcase-box .item {
+    text-align: center;
+}
+#about .showcase-box .item .number{
+    font-size: 48px;
+    font-weight: bolder;
+    color: var(--accent-color);
+    margin-bottom: 16px;
+}
+#about .showcase-box .item>.section-info{
+    text-transform: uppercase;
+}
+
+
+
 
 
 /* medium responsive design */
@@ -209,5 +246,25 @@ nav .hamburger{
     }
     #banner .banner-content .banner-title{
         font-size: 40px;
+    }
+
+    /* about section */
+    #about{
+        padding: 0 20px;
+    }
+    #about .about-content{
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 1px solid #909090;
+
+}
+    #about .about-content .section-info .line-break{
+        display: none;
+    }
+    #about .showcase-box{
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
     }
 }
