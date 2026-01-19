@@ -265,8 +265,51 @@ nav .hamburger{
     color: var(--accent-color);
     
 }
+/* FEATURED SECTION */
+#host {
+    margin: 120px auto;
+}
+#host>.section-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#host .host-card{
+    padding: 40px;
+    border-radius: 40px;
+    gap: 24px;
+    align-items: center;
+    background-color: rgba(53, 17, 101, 40%);
+}
+#host .host-card .host-image{
+    max-width: 200px;
+}
+#host .host-card .host-content .host-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+#host .host-card .host-content>.card-info{
+    margin: 16px 0;
+    line-height: 24px;
+}
 
+#host .host-card .host-content .social-links{
+    gap: 8px;
+}
+#host .host-card .host-content .social-links .image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+}
 
+#host .host-card .host-content .social-links img{
+    width: 16px;
+    /* height: 16px; */
+    
+    
+}
 
 
 
@@ -313,7 +356,10 @@ nav .hamburger{
 }
 }
 
-
+/* MEET THE HOST SECTION */
+#host{
+    padding: 20px;
+}
 
 
 
@@ -419,5 +465,25 @@ nav .hamburger{
 }
 #featured .featured-card-box .featured-card .featured-card-content{
     padding: 16px;
+}
+
+
+/* MEET THE HOST SECTION */
+#host{
+    padding: 20px;
+    margin: 60px auto;
+}
+#host .host-card{
+    flex-direction: column;
+    
+}
+#host .host-card .host-content{
+    text-align: center;
+}
+#host .host-card .host-content .host-title{
+    font-size: 24px;
+}
+#host .host-card .host-content .social-links{
+    justify-content: center;
 }
 }
