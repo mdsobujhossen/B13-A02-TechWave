@@ -474,9 +474,12 @@ footer .footer-content .footer-logo{
 
     /* banner-section */
     #banner{
+        background-image: url(./assets/Image.png);
         padding: 40px 20px;
-        height: 466px;
-        background-position-y: 60px;
+        height: 530px;
+        background-size: cover;
+        background-position-y: 180px;
+        background-position: center center;
     }
     #banner .banner-content .circle-container {
     width: 200px;
@@ -499,7 +502,7 @@ footer .footer-content .footer-logo{
     }
     #about .about-content{
     text-align: center;
-    padding: 40px 0;
+    padding:0 0 40px;
     border-bottom: 1px solid #909090;
 
 }
@@ -543,7 +546,7 @@ footer .footer-content .footer-logo{
     font-size: 20px;
 }
 #featured .featured-card-box .featured-card iframe{
-    min-height: 225px;
+    min-height: 280px;
 }
 #featured .featured-card-box .featured-card .featured-card-content{
     padding: 16px;
